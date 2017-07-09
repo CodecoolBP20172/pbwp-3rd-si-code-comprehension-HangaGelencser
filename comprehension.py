@@ -1,10 +1,10 @@
 #Guessing numbers
 
-import random #Imports random module from library
+import random #Imports random module 
 
 guessesTaken = 0 # Assign value(0) to variable
 
-print('Hello! What is your name?') # prints the question in the breq	brackets
+print('Hello! What is your name?') # prints the question in the brackets
 myName = input() # Assign input to variable (myName)
 
 number = random.randint(1, 20) # Returns a random integer between 1-20
